@@ -1,0 +1,171 @@
+html,body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0d0e21;
+  color: white;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 15px;
+  width: 80%;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.main{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  height: 150px;
+  width: 70%;
+  align-self: flex-start;
+}
+.write h1 {
+  font-size: 22.5px;
+  margin-left: 5px;
+}
+.write div {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #181830;
+  height: 85.7%;
+}
+.write label {
+  font-weight: bolder;
+  margin: 5px;
+}
+.write input {
+  width: 25%;
+  margin: 0px 0px 5px 5px;
+  height: 22.5px;
+}
+.write button {
+  height: 22.5px;
+  width: 50px;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  background-color: #f5529f;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+.buy h1 {
+  font-size: 22.5px;
+  margin-left: 5px;
+}
+.buy div {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #181830;
+}
+.buy label {
+  font-weight: bolder;
+  margin: 5px;
+}
+.buy input {
+  width: 25%;
+  margin: 0px 0px 5px 5px;
+  height: 22.5px;
+}
+.buy button {
+  height: 22.5px;
+  width: 50px;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  background-color: #f5529f;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+.exe h1 {
+  font-size: 22.5px;
+  margin-left: 5px;
+}
+.exe div {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #181830;
+  height: 81.7%;
+}
+.exe label {
+  font-weight: bolder;
+  margin: 5px;
+}
+.exe input {
+  width: 25%;
+  margin: 0px 0px 5px 5px;
+  height: 22.5px;
+}
+.exe button {
+  height: 22.5px;
+  width: 50px;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  background-color: #f5529f;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+.approve h1 {
+  font-size: 22.5px;
+  margin-left: 5px;
+}
+.approve div {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #181830;
+  height: 85.7%;
+}
+.approve label {
+  font-weight: bolder;
+  margin: 5px;
+}
+.approve input {
+  width: 25%;
+  margin: 0px 0px 5px 5px;
+  height: 22.5px;
+}
+.approve button {
+  height: 22.5px;
+  width: 50px;
+  border-radius: 5px;
+  width: fit-content;
+  color: white;
+  background-color: #f5529f;
+  font-weight: bold;
+  border: none;
+  margin: 10px;
+}
+.write {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.buy {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.exe {
+  grid-column: 2/3;
+  grid-row: 2/4;
+}
+.approve {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
